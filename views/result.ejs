@@ -1,0 +1,21 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/result.css">
+</head>
+<body>
+
+    <h1>Result</h1>
+
+    <div class="container">
+    
+      <% Object.keys(data).forEach(function(key, index) { %>
+    
+        <div class="key"><%= key %></div>
+      
+        <div class="value"><%= Object.values(data)[index].replace(/["']/g, '') %></div>
+    
+      <% }) %>
+    
+    </div>
+</body>
+</html>

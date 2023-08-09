@@ -1,0 +1,28 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial;  
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .key {
+    background: #ddd;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .value {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 10px; 
+    width: 200px;
+    text-align: center;
+  }
